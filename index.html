@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adults-Only Soccer Practices | Weekly Pick-up Style Training</title>
+  <meta name="description" content="Adults-only soccer practices: drills, small-sided games, fitness, and fun. Join weekly sessions—beginner-friendly, competitive welcome." />
+  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:title" content="Adults-Only Soccer Practices" />
+  <meta property="og:description" content="Weekly sessions: drills + small-sided games. Adults only (18+)." />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">⚽</span>
+        <span class="brand-name">Adults-Only Soccer Practices</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          ☰
+        </button>
+        <div class="nav-menu" id="navMenu">
+          <a href="#how">How it works</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#location">Locations</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-small" href="#join">Join</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="pill">Adults only • 18+ • All genders welcome</div>
+          <h1>Real practice. Real touches. Real fun.</h1>
+          <p class="lead">
+            Weekly adults-only soccer sessions: warm-up, technical drills, small-sided games, and conditioning.
+            Beginner-friendly, competitive players welcome.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#join">Reserve a spot</a>
+            <a class="btn btn-ghost" href="#schedule">See schedule</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="trust-item">
+              <div class="trust-num">60–90</div>
+              <div class="trust-label">minutes</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-num">10–18</div>
+              <div class="trust-label">players/session</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-num">18+</div>
+              <div class="trust-label">adults only</div>
+            </div>
+          </div>
+
+          <div class="notice" role="note">
+            <strong>Adults-only policy:</strong> Sessions are for participants age 18+ only. No minors on-field.
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Session snapshot">
+          <h2>Tonight’s session</h2>
+          <ul class="checklist">
+            <li>Dynamic warm-up (10 min)</li>
+            <li>Ball mastery + passing patterns (20 min)</li>
+            <li>Small-sided games (25 min)</li>
+            <li>Finishing / conditioning (10–15 min)</li>
+          </ul>
+          <div class="card-row">
+            <div class="badge">Bring: cleats + shin guards</div>
+            <div class="badge">Water required</div>
+          </div>
+          <a class="btn btn-full" href="#join">Join next session</a>
+          <p class="fineprint">Weather cancellations posted 2 hours before start.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="how">
+      <div class="container">
+        <h2>How it works</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>1) Pick a session</h3>
+            <p>Choose a time/location that fits your week. Sessions run rain-or-shine unless fields close.</p>
+          </div>
+          <div class="card">
+            <h3>2) Reserve your spot</h3>
+            <p>Capacity is limited to keep touches high. Reserve online and show up 10 minutes early.</p>
+          </div>
+          <div class="card">
+            <h3>3) Train + play</h3>
+            <p>Structured drills, then small-sided games. We keep it organized, safe, and fun.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="section alt" id="schedule">
+      <div class="container">
+        <div class="section-head">
+          <h2>Schedule</h2>
+          <div class="filters">
+            <label class="sr-only" for="dayFilter">Filter by day</label>
+            <select id="dayFilter">
+              <option value="all">All days</option>
+              <option value="mon">Monday</option>
+              <option value="wed">Wednesday</option>
+              <option value="sat">Saturday</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="table-wrap" role="region" aria-label="Practice schedule" tabindex="0">
+          <table class="schedule-table" id="scheduleTable">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Focus</th>
+                <th>Location</th>
+                <th>Capacity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-day="mon">
+                <td>Mon</td>
+                <td>7:30–9:00 PM</td>
+                <td>Technique + small-sided</td>
+                <td>North Field</td>
+                <td>16</td>
+              </tr>
+              <tr data-day="wed">
+                <td>Wed</td>
+                <td>7:30–9:00 PM</td>
+                <td>Speed of play + finishing</td>
+                <td>Central Turf</td>
+                <td>18</td>
+              </tr>
+              <tr data-day="sat">
+                <td>Sat</td>
+                <td>9:00–10:15 AM</td>
+                <td>Fitness + games</td>
+                <td>East Complex</td>
+                <td>14</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="fineprint">
+          Tip: Want this to reflect your real fields/times? Just edit the rows in <code>index.html</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <h2>Pricing</h2>
+        <div class="grid-3">
+          <div class="card price">
+            <h3>Drop-in</h3>
+            <div class="price-amt">$15</div>
+            <p class="muted">per session</p>
+            <ul class="bullets">
+              <li>Reserve any single session</li>
+              <li>Great for trying it out</li>
+              <li>Pay on arrival or online</li>
+            </ul>
+            <a class="btn btn-full" href="#join">Book drop-in</a>
+          </div>
+
+          <div class="card price featured">
+            <div class="pill pill-dark">Most popular</div>
+            <h3>10-Pack</h3>
+            <div class="price-amt">$120</div>
+            <p class="muted">($12/session)</p>
+            <ul class="bullets">
+              <li>Use across any location</li>
+              <li>Transferable to a friend</li>
+              <li>6-month expiration</li>
+            </ul>
+            <a class="btn btn-full" href="#join">Get 10-pack</a>
+          </div>
+
+          <div class="card price">
+            <h3>Monthly</h3>
+            <div class="price-amt">$89</div>
+            <p class="muted">up to 2 sessions/week</p>
+            <ul class="bullets">
+              <li>Best value for consistency</li>
+              <li>Priority reservations</li>
+              <li>Cancel anytime</li>
+            </ul>
+            <a class="btn btn-full" href="#join">Start monthly</a>
+          </div>
+        </div>
+
+        <div class="note-row">
+          <div class="notice">
+            <strong>Adults-only reminder:</strong> Participants must be 18+. Bring ID for first session if requested.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="section alt" id="location">
+      <div class="container">
+        <h2>Locations</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Main fields</h3>
+            <p class="muted">
+              Replace these with your real addresses. You can also embed Google Maps (iframe) if you want.
+            </p>
+            <ul class="bullets">
+              <li><strong>North Field</strong> — 123 Soccer Ave, Your City</li>
+              <li><strong>Central Turf</strong> — 456 Training Rd, Your City</li>
+              <li><strong>East Complex</strong> — 789 Match St, Your City</li>
+            </ul>
+            <p class="fineprint">Parking: free • Restrooms: varies by venue</p>
+          </div>
+
+          <div class="card">
+            <h3>Weather policy</h3>
+            <ul class="bullets">
+              <li>We play unless fields close or lightning is within the safety window.</li>
+              <li>Updates posted 2 hours before start.</li>
+              <li>If canceled, credits roll to your next session.</li>
+            </ul>
+            <div class="badge-row">
+              <span class="badge">Bring layers</span>
+              <span class="badge">Hydrate</span>
+              <span class="badge">Shin guards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <div class="accordion" id="faqAccordion">
+          <details>
+            <summary>Is this really adults-only?</summary>
+            <div class="details-body">
+              Yes—participants must be 18+. These sessions are designed for adults, with adult pacing and contact expectations.
+            </div>
+          </details>
+          <details>
+            <summary>What skill level is this for?</summary>
+            <div class="details-body">
+              Mixed levels. We structure drills with progressions and group players appropriately for games.
+            </div>
+          </details>
+          <details>
+            <summary>What should I bring?</summary>
+            <div class="details-body">
+              Cleats, shin guards, water. If you have one: a light + dark shirt for teams.
+            </div>
+          </details>
+          <details>
+            <summary>Do you have goalkeepers?</summary>
+            <div class="details-body">
+              Sometimes. If not, we run small goals or rotate keepers depending on the session format.
+            </div>
+          </details>
+          <details>
+            <summary>Can I get a refund?</summary>
+            <div class="details-body">
+              If a session is canceled by us, you get a credit automatically. For other cases, contact us and we’ll work it out.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOIN / CONTACT -->
+    <section class="section alt" id="join">
+      <div class="container">
+        <div class="grid-2">
+          <div>
+            <h2>Join a session</h2>
+            <p class="lead">
+              Reserve your spot. Limited capacity keeps the quality high.
+            </p>
+            <div class="notice">
+              <strong>Adults only (18+).</strong> By joining, you confirm you meet the age requirement.
+            </div>
+            <div class="cta-row">
+              <a class="btn" id="reserveBtn" href="#" role="button">Reserve via email</a>
+              <a class="btn btn-ghost" href="#pricing">View pricing</a>
+            </div>
+            <p class="fineprint">
+              This template uses email reservation by default. You can swap in a Google Form, Calendly, or Stripe checkout later.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Contact</h3>
+            <form id="contactForm">
+              <label>
+                Name
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+              <label>
+                Email
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="4" required placeholder="Which session/day are you interested in?"></textarea>
+              </label>
+              <button class="btn btn-full" type="submit">Send</button>
+              <p class="fineprint" id="formHint">
+                Submits via your email app (mailto). No data is stored on this website.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Adults-Only Soccer Practices</p>
+        <div class="footer-links">
+          <a href="#top">Back to top</a>
+          <a href="#join">Join</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
